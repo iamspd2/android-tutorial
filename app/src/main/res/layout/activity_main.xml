@@ -57,4 +57,14 @@
         android:text="OK"
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
         app:layout_constraintEnd_toStartOf="@+id/button5" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/pokemon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
